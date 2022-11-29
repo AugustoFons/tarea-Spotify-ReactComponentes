@@ -1,9 +1,15 @@
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 .tj1 {
-  min-width: 320px;
-  height: 100px;
+  min-width: 364px;
+  height: 70px;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
   background-color: #303030;
   border: 1px solid black;
@@ -13,11 +19,12 @@
 
 .tj1:hover {
   background-color: #515050;
+  transition: 700ms;
 }
 
 .tj2 {
-    width: 190px;
-    height: 320px;
+    width: 210px;
+    height: 305px;
     display: flex;
     flex-direction: column;
     background-color: #171717;
@@ -29,18 +36,24 @@
 
 .tj2:hover {
   background-color: #262626;
+  transition: 700ms;
 }
 
 .btn {
   display: none;
 }
+
 .btn-visible1 {
-  display:block;
+  display:flex;
   padding: 10px;
+  z-index: 10;
+  margin-left: 30px;
 }
 
 .btnPausa{
   content:url("./componentes/img/botonPausa.png");
+  z-index: 10;
+  margin-left: 35px;
 }
 
 
@@ -48,8 +61,8 @@
   width: 50px;
   height: auto;
   position: relative;
-  bottom:62px;
-  left:130px;
+  bottom:60px;
+  left:118px;
 }
 
 .btnPausa2{
@@ -57,6 +70,6 @@
   width: 60px;
   height: auto;
   position: relative;
-  bottom:67px;
-  left:125px;
+  bottom:65px;
+  left:113px;
 }

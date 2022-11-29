@@ -6,11 +6,14 @@ const Seccion = (props) => {
     return (
         <div style={{
             display: "flex",
-            flexDirection: "column"
+            flexDirection: "column",
+            alignItems:"flex-start",
+            padding:"50px",
+            rowGap:"30px"
         }}>
-        <h2 style={{color: "white", marginLeft: "73px"}}>Good evening</h2>
+        <h1 style={{color: "white", }}>Good evening</h1>
         <ListaTarjetas1 lista={props.lista} />
-        <h2 style={{color: "white", marginLeft: "73px"}}>Recently played</h2>
+        <h2 style={{color: "white", }}>Recently played</h2>
         <ListaTarjetas2 lista={props.lista} />
 
         </div>

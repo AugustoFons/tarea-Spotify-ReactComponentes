@@ -5,7 +5,7 @@ const ListaTarjetas1 = (props) => {
     <div style={{
       display: "flex",
       flexWrap: "wrap",
-      justifyContent: "space-evenly",
+      columnGap: "40px",
       rowGap: "20px"
     }}>
       {props.lista.filter(info => info.id <= 6).map(info => (<Tarjetas1 key={info.id} info={info} />))} 

@@ -23,8 +23,8 @@ const Tarjetas1 = (props) => {
                   borderRadius: "5px"
                   }} src={props.info.imagen} alt=""  />
       <figcaption >
-        <div style={{width:"170px", color: "white", textAlign:"center"}}>
-        <h4 style={{margin: "0px 10px 0px 20px"}} >{props.info.titulo}</h4>
+        <div style={{width:"170px", color: "white", textAlign:"left", marginLeft: "20px"}}>
+        <h4 >{props.info.titulo}</h4>
           </div>
       </figcaption>
       <img src={botonPlay} alt="" className={checked ? 'btnPausa' : isActive ? "btn" : "btn-visible1" } onClick={handleChange}  />

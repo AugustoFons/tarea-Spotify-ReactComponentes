@@ -9,10 +9,11 @@ const ListaTarjetas2 = (props) => {
     style={{
         display: "flex",
         flexWrap: "wrap",
-        justifyContent: "space-evenly"
+        columnGap: "30px"
+
     }}
     >   
-        {props.lista.filter(info => info.id > 6 && info.id <= 10).map(info => (<Tarjetas2 key={info.id} info={info} />))} 
+        {props.lista.filter(info => info.id > 6 && info.id <= 11).map(info => (<Tarjetas2 key={info.id} info={info} />))} 
     
     </div>
     <h2 style={{color: "white", marginLeft: "40px"}}>Your top mixes</h2>

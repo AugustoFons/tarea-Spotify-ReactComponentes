@@ -61,6 +61,12 @@ const lista = [
     imagen: "https://i.scdn.co/image/ab67616d0000b273eed3fde2877221155601b242",
     titulo: "Sistema Nervioso...",
     descripcion: "Estelares",
+  },
+  {
+    id:11,
+    imagen: "https://daily-mix.scdn.co/covers/on_repeat/PZN_On_Repeat2_LARGE-en.jpg",
+    titulo: "On Repeat",
+    descripcion: "Songs you love right now",
   }
 ]
 
