@@ -1,6 +1,9 @@
 import Tarjetas1 from './Tarjetas1'
+import { useState } from 'react';
 
 const ListaTarjetas1 = (props) => {
+
+
   return (
     <div style={{
       display: "flex",

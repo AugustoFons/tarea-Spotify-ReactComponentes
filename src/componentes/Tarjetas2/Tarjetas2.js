@@ -1,5 +1,7 @@
 
 import botonPlay from '../img/botonPlay.png'
+import botonPausa from '../img/botonPausa.png'
+
 import React, { useState } from 'react';
 
 
@@ -11,8 +13,7 @@ const Tarjetas2 = (props) => {
     };
 
     const [checked, setChecked] = useState(false); 
-    const handleChange = e => { 
-        e.preventDefault();
+    const handleChange = () => { 
         setChecked(!checked)
     }
 
@@ -20,7 +21,8 @@ const Tarjetas2 = (props) => {
     <figure className="tj2" onMouseEnter={mostrarBoton} onMouseLeave={mostrarBoton} >
     <div style={{maxHeight:"65%", width:"100%", border:"black solid 2px"}}>
         <img style={{width:"100%",minHeight:"100%", borderRadius:"5px",boxShadow: "0px 5px 8px 9px #101010"}} src={props.info.imagen} alt="" />
-        <img src={botonPlay} alt="" className={checked ? 'btnPausa2' : isActive ? "btn" : "btn-visible2"  } onClick={handleChange} />
+        <img src={botonPlay} alt="" className={checked ? 'btn-invisible' : isActive ? "btn-invisible" : "btn-visible2"  } onClick={handleChange} />
+        <img  src={botonPausa} alt=""  className={checked ? 'btnPausa2' : 'btn-invisible' } onClick={handleChange} />
     </div>
     <figcaption style={{display: "flex", flexDirection: "column", }}>
         <h4 style={{color: "white", margin:"18px 0px"}}>{props.info.titulo}</h4>
