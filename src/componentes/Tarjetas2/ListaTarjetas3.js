@@ -1,7 +1,7 @@
 import Tarjetas2 from './Tarjetas2';
 
 
-const ListaTarjetas2 = (props) => {
+const ListaTarjetas3 = (props) => {
 
 	return (
 		<>
@@ -12,7 +12,7 @@ const ListaTarjetas2 = (props) => {
 				justifyContent: "center"
 				}}
 				>   
-				{props.lista.filter(info => info.id > 6 && info.id <= 11).map(info => (
+				{props.lista.filter(info => info.id > 11 && info.id <= 16).map(info => (
 					<Tarjetas2 info={info}/>
 				))} 
 		</div>
@@ -20,4 +20,4 @@ const ListaTarjetas2 = (props) => {
 	)
 }
 
-export default ListaTarjetas2
+export default ListaTarjetas3

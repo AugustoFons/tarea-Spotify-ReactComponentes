@@ -28,7 +28,7 @@ const lista = [
   },
   {
     id: 5,
-    imagen: "https://i.scdn.co/image/ab67706c0000bebb860b1909ce1a0c1d578dca57",
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3jZIZ8-Cf55vmpvxEA-toRxTiiMaUFJcVoNxGwwVVk6XX5KI4L8CP6UFgWfwKma-DH8o&usqp=CAU7",
     titulo: "Soft Indie Folk",
     descripcion: ""
   },
@@ -67,16 +67,50 @@ const lista = [
     imagen: "https://daily-mix.scdn.co/covers/on_repeat/PZN_On_Repeat2_LARGE-en.jpg",
     titulo: "On Repeat",
     descripcion: "Songs you love right now",
+  },
+  {
+    id:12,
+    imagen: "https://i.scdn.co/image/ab67616d0000b27334b14f4c2eeffe3d09b1ad3a",
+    titulo: "Por qué no?",
+    descripcion: "Bernardo Schiavi",
+  },
+  {
+    id:13,
+    imagen: "https://i.scdn.co/image/ab67616d0000b2732068aa68d0054825aebb8b8d",
+    titulo: "Polos",
+    descripcion: "Ella Es Tan Cargosa",
+  },
+  {
+    id:14,
+    imagen: "https://i.scdn.co/image/ab67616d0000b273ee85b693f7e0dba5cdf85a12",
+    titulo: "El Éxodo",
+    descripcion: "Eté & Los Problems",
+  },
+  {
+    id:15,
+    imagen: "https://misc.scdn.co/liked-songs/liked-songs-300.png",
+    titulo: "Liked Songs",
+    descripcion: "342 songs",
+  },
+  {
+    id:16,
+    imagen: "https://i.scdn.co/image/ab67616d0000b273c94c1e1d7dab155a6bd1b144",
+    titulo: "Como Quieras",
+    descripcion: "Milongas Extremas",
   }
 ]
 
 function App() {
   return (
     <div style={{
-      background: "linear-gradient(to bottom, #202020, #1a1a1a, #141414, #0b0b0b, #000000)"
+      background: "linear-gradient(to bottom, #202020, #1a1a1a, #141414, #0b0b0b, #000000)",
+      display: 'flex',
+      flexDirection: 'column',
+      alignContent: 'center',
+      border:' 2px solid white'
     }}
     >
-    <Seccion lista={lista} />
+    <div><Seccion lista={lista} /></div>
     </div>
   );
 }

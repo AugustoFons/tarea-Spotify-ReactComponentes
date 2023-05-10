@@ -6,7 +6,7 @@
 }
 
 .tj1 {
-  min-width: 364px;
+  min-width: 380px;
   height: 82px;
   display: flex;
   justify-content: flex-start;
@@ -44,7 +44,6 @@
 }
 
 .btn-visible1 {
-  display:flex;
   padding: 10px;
   z-index: 10;
   margin-left: 30px;
