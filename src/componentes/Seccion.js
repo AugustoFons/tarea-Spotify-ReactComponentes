@@ -10,7 +10,7 @@ const Seccion = (props) => {
             display: "flex",
             flexDirection: "column",
             alignItems:"flex-start",
-            padding:"50px",
+            padding:"20px 50px 50px 50px",
             rowGap:"30px"
         }}>
         <h1 style={{color: "white" }}>Good evening</h1>
