@@ -9,6 +9,7 @@ const ListaTarjetas2 = (props) => {
 				display: "flex",
 				flexWrap: "wrap",
 				columnGap: "30px",
+				rowGap: "30px",
 				justifyContent: "center"
 				}}
 				>   

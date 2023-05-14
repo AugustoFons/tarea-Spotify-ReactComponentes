@@ -35,11 +35,11 @@ return (
             <div style={{maxHeight:"65%", width:"100%", border:"black solid 2px"}}>
                     <img style={{width:"100%",minHeight:"100%", borderRadius:"5px",boxShadow: "0px 5px 8px 9px #101010"}} src={props.info.imagen} alt="" />
                     
-                    <div onClick={() => setChecked(checked => checked === props.info.id ? null : props.info.id)}>
+                    <div className="nn" onClick={() => setChecked(checked => checked === props.info.id ? null : props.info.id)}>
                         { 
                             checked === props.info.id
                             ?
-                                <img src= {botonPausa} alt="" className='btnPausa2'/>
+                                <img src= {botonPausa} alt="" style={{width: '60px',   bottom:'65px', left: '113px'}}/>
                             :
                                 <img src= {botonPlay} alt="" className={isActive === props.info.id ?  "btn-visible2" : "btn-invisible" } />
                         }

@@ -28,23 +28,18 @@ return (
 				null
 		}
 		<figure className='tj1' onMouseEnter={() => setActive(isActive => isActive === props.info.id ? null : props.info.id)} onMouseLeave={() => setActive(isActive => isActive === props.info.id ? null : props.info.id)}>
-			<img style={{maxWidth:"55%",
-						height:"100%" ,
-						boxShadow: "2px 0px 18px 10px #151515",
-						borderRadius: "5px"
-						}} src={props.info.imagen} alt=""  
-						/>
+			<img className="imagenTj1" src={props.info.imagen} alt=""  />
 			<figcaption >
-				<div style={{width:"170px", color: "white", textAlign:"left", marginLeft: "20px"}}>
+				<div className="titulo">
 					<h4 >{props.info.titulo}</h4>
 				</div>
 			</figcaption>
 			<div onClick={() => setChecked(checked => checked === props.info.id ? null : props.info.id)}>
 				{ checked === props.info.id
 				?
-				<img src= {botonPausa} alt="Pausa" className="btnPausa"  />
+				<img src={botonPausa} alt="Pausa" className="btnPausa1"  />
 				:
-				<img src= {botonPlay} alt="Play" className={isActive === props.info.id ?  "btn-visible1" : "btn-invisible" } />
+				<img src={botonPlay} alt="Play" className={isActive === props.info.id ?  "btn-visible1" : "btn-invisible" } />
 				}
 			</div>
 			{

@@ -7,7 +7,7 @@ const ListaTarjetas1 = (props) => {
 		<div style={{
 			display: "flex",
 			flexWrap: "wrap",
-			columnGap: "30px",
+			columnGap: "25px",
 			rowGap: "30px",
 			justifyContent: "flex-start"
 			}}>

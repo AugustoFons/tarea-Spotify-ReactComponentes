@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
+/*** TARJETA 1 ***/
 
 .tj1 {
   min-width: 350px;
@@ -14,13 +15,83 @@
   background-color: #303030;
   border: 1px solid black;
   border-radius: 5px;
-  cursor:pointer
+  cursor:pointer;
 }
 
 .tj1:hover {
   background-color: #515050;
   transition: 700ms;
 }
+
+.titulo {
+  width: 186px;
+  color: white;
+  text-align: left;
+  margin-left: 20px
+}
+
+.imagenTj1 {
+  max-width: 55%;
+	height: 100%;
+	box-shadow: 2px 0px 18px 10px #151515;
+	border-radius: 5px
+}
+
+.btn-visible1 {
+  padding: 5px;
+  z-index: 10;
+}
+
+.btnPausa1{
+  z-index: 10;
+}
+
+@media screen and (min-width: 500px) {
+  .btn-invisible {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tj1 {
+    min-width: 300px;
+  }
+  .titulo {
+    width: 150px;
+    margin-left: 10px
+  }
+  .btn-visible1 {
+    padding: 5px;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 358px) {
+  .tj1 {
+    min-width: 100%;
+  }
+  .titulo {
+    width: 110px;
+  }
+}
+
+@media screen and (max-width: 324px) {
+  .tj1 {
+    min-width: 100%;
+    height: 70px;
+  }
+  .titulo {
+    width: 78px;
+  }
+  .imagenTj1{
+    width: 30%;
+  }
+  h4 {
+    font-size: 14px;
+  }
+}
+
+/*** TARJETA 2 ***/
 
 .tj2 {
     width: 210px;
@@ -39,21 +110,15 @@
   transition: 700ms;
 }
 
-.btn-invisible {
-  display: none;
-}
-
-.btn-visible1 {
-  padding: 5px;
-  z-index: 10;
-}
-
-.btnPausa{
-  z-index: 10;
-}
-
-
 .btn-visible2 {
+  width: 50px;
+  height: auto;
+  position: relative;
+  bottom:55px;
+  left:118px;
+}
+
+.nn img {
   width: 50px;
   height: auto;
   position: relative;
@@ -68,6 +133,8 @@
   bottom:65px;
   left:113px;
 }
+
+/*** HEADER ***/
 
 .header{
   height: 10vh;
@@ -89,6 +156,8 @@
   padding-left: 1vh;
 }
 
+/*** PLAYING ***/
+
 .loader {
   margin-left: -20px;
   width: 100px;
@@ -97,7 +166,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 5px;
   position: absolute;
   bottom: 90%;
   left: 88%;
@@ -163,3 +231,36 @@
   }
 }
 
+@media screen and (max-width: 609px) {
+
+  .loader {
+    margin-left: -40px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 90%;
+    left: 88%;
+  }
+
+}
+
+@media screen and (max-width: 448px) {
+
+  .loader {
+    margin-left: -40px;
+    width: 70px;
+    height: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 88%;
+    left: 88%;
+  }
+
+}
