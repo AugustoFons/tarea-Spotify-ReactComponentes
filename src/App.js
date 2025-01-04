@@ -5,14 +5,14 @@ import Header from "./componentes/Header";
 const lista = [
 	{
 		id: 1,
-		imagen: "https://mosaic.scdn.co/640/ab67616d0000b2736c7112082b63beefffe40151ab67616d0000b273863e0e305637100311c91aa7ab67616d0000b273c8b444df094279e70d0ed856ab67616d0000b273de3c04b5fc750b68899b20a9",
-		titulo: "Radiohead",
+		imagen: "https://i.scdn.co/image/ab67616d0000b273ba3c350f2a9c3690588a45f6",
+		titulo: "La Vela Puerca",
 		descripcion: "",
-		src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1743811203&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+		src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/26876646&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
 	},
 	{
 		id: 2,
-		imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8X_pxM9EV7wVEa4sGYMsBmpXYhDcgAJ2HYNES696Q19Dvv2buIEmydBUNz3SYePtRsF0&usqp=CAU",
+		imagen: "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da849d25907759522a25b86a3033",
 		titulo: "Canciones que te gustan",
 		descripcion: "",
 		src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/57262898&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
@@ -26,14 +26,14 @@ const lista = [
 	},
 	{
 		id: 4,
-		imagen: "https://i.scdn.co/image/ab67616d0000b273ba3c350f2a9c3690588a45f6",
-		titulo: "La Vela Puerca",
+		imagen: "https://mosaic.scdn.co/640/ab67616d0000b2736c7112082b63beefffe40151ab67616d0000b273863e0e305637100311c91aa7ab67616d0000b273c8b444df094279e70d0ed856ab67616d0000b273de3c04b5fc750b68899b20a9",
+		titulo: "Radiohead",
 		descripcion: "",
-		src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/26876646&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+		src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1743811203&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
 	},
 	{
 		id: 5,
-		imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3jZIZ8-Cf55vmpvxEA-toRxTiiMaUFJcVoNxGwwVVk6XX5KI4L8CP6UFgWfwKma-DH8o&usqp=CAU7",
+		imagen: "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84ccb68d799c276fb85a025a28",
 		titulo: "Soft Indie Folk",
 		descripcion: "",
 		src: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/315781489&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
